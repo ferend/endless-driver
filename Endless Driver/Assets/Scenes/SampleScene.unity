@@ -1135,11 +1135,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   curvedWorldController: {fileID: 773598982}
-  timerText: {fileID: 273322158}
+  timerText: {fileID: 970036803}
   playerScoreText: {fileID: 33543688}
   targetTime: 0
   playerScore: 0
-  flag: 0
 --- !u!1 &127208501
 GameObject:
   m_ObjectHideFlags: 0
@@ -5807,7 +5806,7 @@ MonoBehaviour:
   bendRotationAxisType: 1
   bendRotationCenter2: {fileID: 0}
   bendRotationCenter2Position: {x: 0, y: 0, z: 0}
-  bendVerticalSize: 0
+  bendVerticalSize: -1
   bendVerticalOffset: 0
   bendHorizontalSize: 0
   bendHorizontalOffset: 0
@@ -13820,7 +13819,7 @@ MonoBehaviour:
   positionRandomizer: {x: 5, y: 0, z: 3}
   rotation: {x: 0, y: 90, z: 0}
   moveDirection: {x: -1, y: 0, z: 0}
-  movingSpeed: {x: 6, y: 12}
+  movingSpeed: {x: 4, y: 10}
 --- !u!4 &1718886265
 Transform:
   m_ObjectHideFlags: 0

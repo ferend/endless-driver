@@ -16,9 +16,8 @@ public class GameFlowManager : MonoBehaviour
 
     public Text timerText;
     public Text playerScoreText;
-    public int targetTime = 1;
+    public float targetTime;
     public int playerScore;
-    public bool flag = true;
     private void Awake()
     {
         if (Instance == null)
@@ -33,18 +32,18 @@ public class GameFlowManager : MonoBehaviour
 
     public void Start()
     {
+        targetTime = 0;
         InvokeRepeating(nameof(TimerEnded), 1f,1f);
     }
 
     public void Update()
     {
-        targetTime += 1;
+        targetTime += 1*Time.deltaTime;
         timerText.text = targetTime.ToString();
 
-        if (targetTime == 0 && flag)
+        if (targetTime == 0)
         {
             CancelInvoke();
-            flag = false;
         }
 
     }
@@ -62,7 +61,7 @@ public class GameFlowManager : MonoBehaviour
             myFloat = x;
             curvedWorldController.SetBendCurvatureSize(myFloat);
             curvedWorldController.SetBendHorizontalSize(myFloat);
-        }, endValues[carCount], 6).SetId("curve");
+        }, endValues[carCount], 10).SetId("curve");
 
     }
     

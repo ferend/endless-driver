@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
         {
             GameFlowManager.Instance.targetTime = 1;
             GameFlowManager.Instance.playerScore = 0;
-            GameFlowManager.Instance.flag = true;
         }
     }
 
@@ -27,7 +26,6 @@ public class Player : MonoBehaviour
         {
             collisionCount++;
             var randomCount = Random.Range(0, 2);
-            Debug.Log("Collided with car");
             GameFlowManager.Instance.WorldCurveTweener(randomCount);
         }
     }
