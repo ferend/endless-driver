@@ -1,0 +1,11 @@
+
+Kcsharpsquid:S3903".Move 'GameFlowManager' into a named namespace.(Ïÿ£
+Ecsharpsquid:S2933"Make 'endValues' 'readonly'.(ÙËÈ¥ûÿÿÿÿ8êÍºˆ0
+mcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(¥€Êİùÿÿÿÿ8ş÷»ˆ0
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(²Ã‘Îùÿÿÿÿ8ÃØÁˆ0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Á½ª¶8§ôãˆ0
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¬éÔûÿÿÿÿ8„˜‡ˆ0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ø‘À½8™Ûòˆ0
+gcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ñ©Š|8¿Ğ÷ˆ0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(èƒ“Ù8Ø´«ˆ0
+ncsharpsquid:S2223"EChange the visibility of 'Instance' or make it 'const' or 'readonly'.(²Ã‘Îùÿÿÿÿ8ÃØÁˆ0

@@ -1923,7 +1923,7 @@ MonoBehaviour:
   - {fileID: 1891897466}
   - {fileID: 1697122273}
   - {fileID: 1043098170}
-  initialSpawnCount: 12
+  initialSpawnCount: 13
   destoryZone: 300
   axis: 1
   moveDirection: {x: -1, y: 0, z: 0}
