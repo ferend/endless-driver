@@ -364,6 +364,7 @@
 "Assets/Amazing Assets/Curved World/Scripts/CurvedWorldUtilities.cs"
 "Assets/_Scripts/GameFlowManager.cs"
 "Assets/_Scripts/Network/PlayerProfile.cs"
+"Assets/_Scripts/Network/RealmManager.cs"
 "Assets/_Scripts/Player.cs"
 -langversion:9.0
 

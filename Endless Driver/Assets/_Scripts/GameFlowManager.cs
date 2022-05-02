@@ -1,6 +1,7 @@
 using System;
 using AmazingAssets.CurvedWorld;
 using DG.Tweening;
+using Realms;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,16 +9,13 @@ public class GameFlowManager : MonoBehaviour
 {
     public CurvedWorldController curvedWorldController;
     private  float myFloat;
-    private int[] endValues =
-    {
-        3,0,-3
-    } ;
-    public static GameFlowManager Instance;
-
+    private int[] endValues = {3,0,-3} ;
     public Text timerText;
     public Text playerScoreText;
     public float targetTime;
     public int playerScore;
+    public static GameFlowManager Instance;
+
     private void Awake()
     {
         if (Instance == null)
@@ -47,6 +45,7 @@ public class GameFlowManager : MonoBehaviour
         }
 
     }
+
 
     public void TimerEnded()
     {
