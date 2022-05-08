@@ -1,5 +1,5 @@
 # endless-driver
-## Endless runner type game intergrated with MongoDB Realm Unity SDK for backend.
+## Endless runner type game integrated with MongoDB Realm Unity SDK for backend.
 <img width="400" alt="Screen Shot 2022-05-02 at 15 46 34" src="https://user-images.githubusercontent.com/74188001/166235941-53fc95ac-528a-4cee-9f71-87ce16b8e13a.png"> <img width="450" alt="Screen Shot 2022-05-02 at 15 48 13" src="https://user-images.githubusercontent.com/74188001/166236087-6d7c555e-bec1-4834-928b-fa2cfe44d8f7.png">
 
 # What is Mongo Realm and how it is used in this project?
