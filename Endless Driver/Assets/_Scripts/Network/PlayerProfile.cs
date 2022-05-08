@@ -10,11 +10,16 @@ public class PlayerProfile : RealmObject
     [MapTo("high_score")]
     public int HighScore { get; set; }
     
+    [MapTo("score")]
+
+    public int Score { get; set; }
+    
     public PlayerProfile () {}
 
     public PlayerProfile(string userId)
     {
         this.UserId = userId;
+        this.Score = 0;
         this.HighScore = 0;
     }
 }
