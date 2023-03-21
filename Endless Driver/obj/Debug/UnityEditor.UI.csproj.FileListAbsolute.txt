@@ -1,0 +1,2 @@
+/Users/ferhaterendalcik/Desktop/endless-driver/Endless Driver/obj/Debug/UnityEditor.UI.csproj.AssemblyReference.cache
+/Users/ferhaterendalcik/Desktop/endless-driver/Endless Driver/obj/Debug/UnityEditor.UI.csproj.CoreCompileInputs.cache

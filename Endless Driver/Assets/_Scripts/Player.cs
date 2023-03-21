@@ -1,4 +1,5 @@
 
+using _Scripts.Network;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -17,6 +18,7 @@ public class Player : MonoBehaviour
         {
             GameFlowManager.Instance.targetTime = 1;
             GameFlowManager.Instance.playerScore = 0;
+            RealmManager.Instance.ResetScore();
         }
     }
 
